@@ -1,0 +1,57 @@
+/* Καθολικές ρυθμίσεις */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Στυλ για το μενού */
+.menu {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 80px;
+}
+
+/* Στυλ για το λογότυπο */
+.menu .logo a {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+}
+
+/* Στυλ για τους συνδέσμους */
+.menu .header {
+    display: flex;
+    gap: 20px;
+}
+
+.menu .header a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+/*White box Style*/
+.white-box{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    display: flex;
+    justify-content:center;
+    align-items: stretch;
+    gap: 30px;
+    
+}
+
